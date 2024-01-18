@@ -26,7 +26,7 @@ const Gallery = () => {
 
   return (
     <Container>
-      <Row className="justify-content-center">
+      <Row className="justify-content-center g-2 mt-3">
         {news.map((card) => (
           <SpaceCard key={card.id} Infos={card} />
         ))}
